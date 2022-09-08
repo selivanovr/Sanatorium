@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="format-detection" content="telephone=no">
+   <link rel="shortcut icon" href="img/favicon-1.svg" type="image/x-icon">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220907225359">
+   <title>Sanatoriums</title>
+</head>
+
+<body>
+   <header class="header">
+   <nav class="header__menu menu spollers">
+      <div class="container">
+         <div class="menu__body">
+            <div class="menu__content">
+               <ul class="menu__list">
+                  <li class="menu__link"><a href="rooms.html">Номера и цены</a></li>
+                  <li class="menu__link">
+                     <a href="404.html">Об отеле</a>
+                     <span class="menu__link-mark mark" data-smpb="menu-about">
+                        <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M1.08966 1.17295C0.747947 1.51466 0.747947 2.06868 1.08966 2.41039L8.38132 9.70206C8.72303 10.0438 9.27705 10.0438 9.61876 9.70206L16.9104 2.41039C17.2521 2.06868 17.2521 1.51466 16.9104 1.17295C16.5687 0.831245 16.0147 0.831245 15.673 1.17295L9.00004 7.8459L2.32709 1.17295C1.98538 0.831245 1.43136 0.831245 1.08966 1.17295Z" fill="#333333"/>
+                        </svg>
+                     </span>
+                     <ul class="menu__sub-list" data-smpc="menu-about">
+                        <li class="menu__sub-list-link"><a href="404.html">Услуги</a></li>
+                        <li class="menu__sub-list-link"><a href="404.html">Условия проживания(404)</a></li>
+                        <li class="menu__sub-list-link"><a href="news.html">Новости</a></li>
+                        <li class="menu__sub-list-link"><a href="contact.html">Контакты</a></li>  
+                     </ul>
+                  </li>
+                  <li class="menu__link menu__sub-list-link"><a href="404.html">Услуги</a></li>
+                  <li class="menu__link menu__sub-list-link"><a href="404.html">Условия проживания(404)</a></li>
+                  <li class="menu__link menu__sub-list-link"><a href="news.html">Новости</a></li>
+                  <li class="menu__link menu__sub-list-link"><a href="contact.html">Контакты</a></li>
+                  <li class="menu__link"><a href="page-gallery.html">Фото отеля</a></li>
+                  <li class="menu__link"><a href="route.html">Как добраться</a></li>
+                  <li class="menu__link"><a href="comments.html">Отзывы гостей</a></li>
+                  <li class="menu__link"><a href="404.html">Достопримечательности</a></li>
+                  <li class="menu__link"><a href="404.html">Паста бар</a></li>
+                  <li class="menu__link ">
+                     <a href="active-leisure.html">Активный отдых</a>
+                     <span class="menu__link-mark mark" data-smpb="activ">
+                        <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M1.08966 1.17295C0.747947 1.51466 0.747947 2.06868 1.08966 2.41039L8.38132 9.70206C8.72303 10.0438 9.27705 10.0438 9.61876 9.70206L16.9104 2.41039C17.2521 2.06868 17.2521 1.51466 16.9104 1.17295C16.5687 0.831245 16.0147 0.831245 15.673 1.17295L9.00004 7.8459L2.32709 1.17295C1.98538 0.831245 1.43136 0.831245 1.08966 1.17295Z" fill="#333333"/>
+                        </svg>
+                     </span>
+                     <ul class="menu__sub-list" data-smpc="activ">
+                        <li class="menu__sub-list-link"><a href="404.html">ЭКСТРИМ</a></li>
+                        <li class="menu__sub-list-link"><a href="404.html">МОРСКИЕ ПРОГУЛКИ</a></li>
+                        <li class="menu__sub-list-link"><a href="404.html">РЫБАЛКА</a></li>
+                     </ul>
+                  </li>
+                  <li class="menu__link menu__sub-list-link"><a href="404.html">ЭКСТРИМ</a></li>
+                  <li class="menu__link menu__sub-list-link"><a href="404.html">МОРСКИЕ ПРОГУЛКИ</a></li>
+                  <li class="menu__link menu__sub-list-link"><a href="404.html">РЫБАЛКА</a></li>
+                  <li class="menu__link"><a class="nav-link" href="index.html#offers">Спецпредложения</a></li>
+                  <li><a href="booking.html" class="menu__button button">
+                     <span>ЗАБРОНИРОВАТЬ</span>
+                     <svg class="button__arrow arrow arrow--white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                     </svg>
+                  </a> </li>
+               </ul>
+            </div>
+            <div class="menu__contacts contacts">
+               <a href="tel:89120388044" class="contacts__phone">
+                  <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M16.4434 12.4862V14.7362C16.4443 14.9451 16.4015 15.1518 16.3178 15.3432C16.2341 15.5346 16.1114 15.7064 15.9575 15.8476C15.8036 15.9888 15.6219 16.0963 15.424 16.1632C15.2261 16.2302 15.0165 16.255 14.8084 16.2362C12.5006 15.9854 10.2837 15.1968 8.33593 13.9337C6.5238 12.7822 4.98743 11.2458 3.83593 9.43372C2.56841 7.47712 1.77961 5.24946 1.53343 2.93122C1.51469 2.72382 1.53934 2.51479 1.60581 2.31743C1.67228 2.12008 1.77911 1.93873 1.91951 1.78493C2.0599 1.63113 2.23078 1.50825 2.42127 1.42411C2.61176 1.33997 2.81769 1.29641 3.02593 1.29622H5.27593C5.63991 1.29263 5.99278 1.42152 6.26875 1.65886C6.54473 1.89621 6.72499 2.2258 6.77593 2.58622C6.8709 3.30627 7.04702 4.01326 7.30093 4.69372C7.40184 4.96216 7.42368 5.2539 7.36386 5.53438C7.30404 5.81485 7.16508 6.0723 6.96343 6.27622L6.01093 7.22872C7.0786 9.10637 8.63327 10.661 10.5109 11.7287L11.4634 10.7762C11.6673 10.5746 11.9248 10.4356 12.2053 10.3758C12.4857 10.316 12.7775 10.3378 13.0459 10.4387C13.7264 10.6926 14.4334 10.8687 15.1534 10.9637C15.5178 11.0151 15.8505 11.1986 16.0883 11.4793C16.3262 11.7601 16.4526 12.1184 16.4434 12.4862Z" stroke="#4567AA" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span>8(912) 038-80-44</span>
+               </a>
+               <span class="contacts__adress">
+                  298690, Россия, Крым, г. Ялта, пгт Форос, Форосский спуск, 1
+               </span>
+            </div>
+            <div class="menu__social social">
+               <a href="#!" class="social__vk">
+                  <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <g>
+                     <path d="M0.624023 21.6166C0.624023 11.4342 0.624023 6.3431 3.85756 3.17985C7.09111 0.0166016 12.2954 0.0166016 22.704 0.0166016H24.544C34.9527 0.0166016 40.1569 0.0166016 43.3905 3.17985C46.624 6.3431 46.624 11.4342 46.624 21.6166V23.4166C46.624 33.599 46.624 38.6901 43.3905 41.8534C40.1569 45.0166 34.9527 45.0166 24.544 45.0166H22.704C12.2954 45.0166 7.09111 45.0166 3.85756 41.8534C0.624023 38.6901 0.624023 33.599 0.624023 23.4166V21.6166Z" fill="#4567AA"/>
+                     <path d="M25.0212 32.4166C14.3341 32.4166 8.23837 25.322 7.98438 13.5166H13.3377C13.5136 22.1815 17.4601 25.8517 20.5862 26.6085V13.5166H25.6271V20.9896C28.7141 20.668 31.957 17.2625 33.0511 13.5166H38.0919C37.2518 18.1328 33.735 21.5382 31.2341 22.9382C33.735 24.0734 37.7404 27.0436 39.2644 32.4166H33.7154C32.5236 28.822 29.5542 26.0409 25.6271 25.6625V32.4166H25.0212Z" fill="white"/>
+                     </g>
+                     <defs>
+                     <clipPath>
+                     <rect width="46" height="45" fill="white" transform="translate(0.624023 0.0166016)"/>
+                     </clipPath>
+                     </defs>
+                  </svg>
+               </a>
+               <a href="#!" class="social__youtube">
+                  <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <g>
+                     <path d="M44.6746 12.4939C44.4186 11.5697 43.9171 10.7271 43.2205 10.0503C42.5239 9.37357 41.6565 8.88644 40.7052 8.63768C37.2018 7.71655 23.124 7.71655 23.124 7.71655C23.124 7.71655 9.04621 7.71655 5.54283 8.63768C4.59151 8.88644 3.72414 9.37357 3.02752 10.0503C2.33089 10.7271 1.82946 11.5697 1.5734 12.4939C0.919236 15.9649 0.601791 19.4879 0.625233 23.0166C0.601791 26.5452 0.919236 30.0682 1.5734 33.5392C1.82946 34.4634 2.33089 35.306 3.02752 35.9828C3.72414 36.6595 4.59151 37.1467 5.54283 37.3954C9.04621 38.3165 23.124 38.3165 23.124 38.3165C23.124 38.3165 37.2018 38.3165 40.7052 37.3954C41.6565 37.1467 42.5239 36.6595 43.2205 35.9828C43.9171 35.306 44.4186 34.4634 44.6746 33.5392C45.3288 30.0682 45.6463 26.5452 45.6228 23.0166C45.6463 19.4879 45.3288 15.9649 44.6746 12.4939ZM18.6243 29.5737V16.4594L30.3076 23.0166L18.6243 29.5737Z" fill="#4567AA"/>
+                     <path d="M18.624 29.5767V16.4564L30.324 23.0166L18.624 29.5767Z" fill="white"/>
+                     </g>
+                     <defs>
+                     <clipPath>
+                     <rect width="45" height="45" fill="white" transform="translate(0.624023 0.516602)"/>
+                     </clipPath>
+                     </defs>
+                  </svg>
+               </a>
+               <a href="#!" class="social__zen">
+                  <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <g>
+                     <path d="M0.624023 22.5166C0.624023 10.0902 10.6976 0.0166016 23.124 0.0166016C35.5504 0.0166016 45.624 10.0902 45.624 22.5166C45.624 34.943 35.5504 45.0166 23.124 45.0166C10.6976 45.0166 0.624023 34.943 0.624023 22.5166Z" fill="#4567AA"/>
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6687 0.0166016C22.5624 9.27326 21.9571 14.4537 18.5091 17.9017C15.0611 21.3497 9.88068 21.955 0.624023 22.0613V23.4046C9.88068 23.5109 15.0611 24.1162 18.5091 27.5642C21.903 30.958 22.5427 36.0305 22.6633 45.0166H24.0174C24.138 36.0305 24.7777 30.958 28.1716 27.5642C31.5655 24.1703 36.6379 23.5305 45.624 23.41V22.0558C36.6379 21.9353 31.5655 21.2956 28.1716 17.9017C24.7236 14.4537 24.1183 9.27326 24.0121 0.0166016H22.6687Z" fill="white"/>
+                     </g>
+                     <defs>
+                     <clipPath>
+                     <rect width="45" height="45" fill="white" transform="translate(0.624023 0.0166016)"/>
+                     </clipPath>
+                     </defs>
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <div class="container">
+      <div class="header__body">
+         <div class="header__burger menu-burger"></div>
+         <a href="index.html" class="header__logo main-logo">
+            <img src="img/Logo.svg" alt="logo">
+         </a>
+         <a href="booking.html" class="header__button button">
+            <span>ЗАБРОНИРОВАТЬ</span>
+            <svg class="button__arrow arrow arrow--white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+            </svg>
+         </a>
+         <div class="header__decor">
+            <img src="img/Logo-round.svg" alt="decor">
+         </div>
+      </div> 
+   </div>
+</header>
+    
+   <main class="page">
+      <section class="page__first first">
+         <div class="container">
+            <div class="first__body">
+               <div class="first__decor anim-item">
+                  <picture><source srcset="img/page/firs-deco.webp" type="image/webp"><img src="img/page/firs-deco.png" alt="decor"></picture>
+               </div>
+               <div class="first__video anim-item">
+                  <picture><source srcset="img/page/first-video.webp" type="image/webp"><img src="img/page/first-video.jpg" alt="video"></picture>
+                  <video poster="img/page/first-video.jpg" muted loop>
+                     <source src="video/test.mp4" type="video/mp4">
+                  </video>
+               </div>
+               <h1 class="first__title anim-item">Комфортный отдых в Крыму</h1>
+               <div class="first__search-form search-form anim-item">
+                  <div class="search-form__data">
+                     <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.875 0C7.35825 0 7.75 0.391751 7.75 0.875V3.5H18.25V0.875C18.25 0.391751 18.6418 0 19.125 0C19.6082 0 20 0.391751 20 0.875V3.5H23.2083C24.3359 3.5 25.25 4.41409 25.25 5.54167V24.2083C25.25 25.3359 24.3359 26.25 23.2083 26.25H2.79167C1.66409 26.25 0.75 25.3359 0.75 24.2083V5.54167C0.75 4.41409 1.66408 3.5 2.79167 3.5H6V0.875C6 0.391751 6.39175 0 6.875 0ZM2.79167 5.25C2.63058 5.25 2.5 5.38058 2.5 5.54167V9.33333H23.5V5.54167C23.5 5.38058 23.3694 5.25 23.2083 5.25H2.79167ZM23.5 11.0833H2.5V24.2083C2.5 24.3694 2.63058 24.5 2.79167 24.5H23.2083C23.3694 24.5 23.5 24.3694 23.5 24.2083V11.0833Z" fill="#333333"/>
+                     </svg>
+                     <span>дата заезда - дата выезда</span>
+                     <button class="search-form__button">
+                        <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M1.08966 1.17295C0.747947 1.51466 0.747947 2.06868 1.08966 2.41039L8.38132 9.70206C8.72303 10.0438 9.27705 10.0438 9.61876 9.70206L16.9104 2.41039C17.2521 2.06868 17.2521 1.51466 16.9104 1.17295C16.5687 0.831245 16.0147 0.831245 15.673 1.17295L9.00004 7.8459L2.32709 1.17295C1.98538 0.831245 1.43136 0.831245 1.08966 1.17295Z" fill="#333333"/>
+                        </svg>
+                     </button>
+                  </div>
+                  <div class="search-form__people">
+                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.08348 9.33334C4.08348 5.78952 6.95626 2.91667 10.5001 2.91667C14.0438 2.91667 16.9166 5.78952 16.9166 9.33334C16.9166 11.5377 15.805 13.4825 14.1118 14.6377C18.0371 16.0757 20.8645 19.7901 20.9952 24.1823C21.0096 24.6653 20.6297 25.0686 20.1466 25.083C19.6636 25.0973 19.2604 24.7174 19.246 24.2344C19.1058 19.525 15.2436 15.75 10.4999 15.75C5.7563 15.75 1.89405 19.525 1.75389 24.2344C1.73952 24.7174 1.33628 25.0973 0.853249 25.083C0.370214 25.0686 -0.00970894 24.6653 0.00466737 24.1823C0.13539 19.7901 2.9629 16.0756 6.88822 14.6377C5.19503 13.4825 4.08348 11.5377 4.08348 9.33334ZM10.5001 4.66667C7.92279 4.66667 5.83348 6.756 5.83348 9.33334C5.83348 11.9107 7.92279 14 10.5001 14C13.0773 14 15.1666 11.9107 15.1666 9.33334C15.1666 6.756 13.0773 4.66667 10.5001 4.66667Z" fill="#333333"/>
+                        <path d="M20.1717 9.33334C19.9994 9.33334 19.8305 9.3456 19.6657 9.36917C19.1873 9.4376 18.744 9.10526 18.6756 8.62688C18.6072 8.1485 18.9395 7.70522 19.4179 7.6368C19.6645 7.60153 19.9163 7.58334 20.1717 7.58334C23.0905 7.58334 25.4566 9.94953 25.4566 12.8683C25.4566 14.5901 24.6331 16.1185 23.3609 17.0828C26.0809 18.3021 27.9766 21.0329 27.9766 24.2083C27.9766 24.6916 27.5849 25.0833 27.1016 25.0833C26.6184 25.0833 26.2266 24.6916 26.2266 24.2083C26.2266 21.4715 24.4102 19.1566 21.9151 18.4079L21.2916 18.2208V16.2655L21.7703 16.0223C22.9212 15.4375 23.7066 14.2439 23.7066 12.8683C23.7066 10.916 22.124 9.33334 20.1717 9.33334Z" fill="#333333"/>
+                     </svg>
+                     <span>кол-во человек</span>
+                     <button class="search-form__button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M11.75 23C11.3358 23 11 22.6642 11 22.25L11 3.75C11 3.33579 11.3358 3 11.75 3C12.1642 3 12.5 3.33579 12.5 3.75L12.5 22.25C12.5 22.6642 12.1642 23 11.75 23Z" fill="#333333"/>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12.75C2 12.3358 2.33579 12 2.75 12H21.25C21.6642 12 22 12.3358 22 12.75C22 13.1642 21.6642 13.5 21.25 13.5H2.75C2.33579 13.5 2 13.1642 2 12.75Z" fill="#333333"/>
+                        </svg>   
+                     </button>
+                     <span class="search-form__counter">00</span>
+                     <button class="search-form__button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12.75C2 12.3358 2.33579 12 2.75 12H21.25C21.6642 12 22 12.3358 22 12.75C22 13.1642 21.6642 13.5 21.25 13.5H2.75C2.33579 13.5 2 13.1642 2 12.75Z" fill="#333333"/>
+                        </svg>
+                     </button>
+                  </div>
+                  <button class="search-form__search">
+                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5625 1.25C5.86706 1.25 1.25 5.86706 1.25 11.5625C1.25 17.2579 5.86706 21.875 11.5625 21.875C14.0727 21.875 16.3733 20.9782 18.1616 19.4874L25.2746 26.6004C25.6407 26.9665 26.2343 26.9665 26.6004 26.6004C26.9665 26.2343 26.9665 25.6407 26.6004 25.2746L19.4874 18.1616C20.9782 16.3733 21.875 14.0727 21.875 11.5625C21.875 5.86706 17.2579 1.25 11.5625 1.25ZM3.125 11.5625C3.125 6.9026 6.9026 3.125 11.5625 3.125C16.2224 3.125 20 6.9026 20 11.5625C20 16.2224 16.2224 20 11.5625 20C6.9026 20 3.125 16.2224 3.125 11.5625Z" fill="white"/>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="page__rooms rooms">
+         <div class="container">
+            <div class="rooms__header">
+               <div class="rooms__decor title-decor title-decor__decor--left">
+                  <svg width="142" height="211" viewBox="0 0 142 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="133" cy="9.00024" r="9" transform="rotate(-180 133 9.00024)" fill="#4666A9"/>
+                     <circle cx="133" cy="45.0002" r="9" transform="rotate(-180 133 45.0002)" fill="#4666A9"/>
+                     <circle cx="133" cy="81.0002" r="9" transform="rotate(-180 133 81.0002)" fill="#4666A9"/>
+                     <circle opacity="0.5" cx="94" cy="101" r="9" transform="rotate(-180 94 101)" fill="#4666A9"/>
+                     <circle opacity="0.5" cx="94" cy="136" r="9" transform="rotate(-180 94 136)" fill="#4666A9"/>
+                     <circle cx="94" cy="202" r="9" transform="rotate(-180 94 202)" fill="#4666A9"/>
+                     <circle opacity="0.5" cx="94" cy="169" r="9" transform="rotate(-180 94 169)" fill="#4666A9"/>
+                     <circle r="12" transform="matrix(-1 0 0 1 94 58.0002)" fill="#4666A9"/>
+                     <circle opacity="0.5" r="12" transform="matrix(-1 0 0 1 55 97.0002)" fill="#4666A9"/>
+                     <circle opacity="0.5" r="12" transform="matrix(-1 0 0 1 55 136)" fill="#4666A9"/>
+                     <circle cx="10" cy="136" r="10" fill="#4666A9"/>
+                  </svg>
+               </div>
+               <div class="rooms__title-block">
+                  <h2 class="rooms__title section-title">Номера</h2>
+                  <span class="rooms__sub-title">Выбери свой номер</span>
+               </div>
+               <div class="rooms__decor title-decor title-decor__decor--right">
+                  <svg width="140" height="147" viewBox="0 0 140 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle opacity="0.5" r="9" transform="matrix(1 0 0 -1 9 9.00024)" fill="#4666A9"/>
+                     <circle r="9" transform="matrix(1 0 0 -1 9 45.0002)" fill="#4666A9"/>
+                     <circle r="9" transform="matrix(1 0 0 -1 48 61.5002)" fill="#4666A9"/>
+                     <circle r="9" transform="matrix(1 0 0 -1 48 100)" fill="#4666A9"/>
+                     <circle opacity="0.5" cx="87" cy="61.5002" r="12" fill="#4666A9"/>
+                     <circle opacity="0.5" cx="87" cy="100" r="12" fill="#4666A9"/>
+                     <circle opacity="0.5" r="9" transform="matrix(1 0 0 -1 48 138)" fill="#4666A9"/>
+                     <circle opacity="0.5" cx="130" cy="100" r="10" fill="#4666A9"/>
+                  </svg>
+               </div>
+            </div>
+            
+         </div>
+         <div class="rooms__slider slider-rooms">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <article class="rooms__cart room-cart">
+                     <div class="room-cart__body">
+                        <a href="apartment.html" class="room-cart__img">
+                           <picture><source srcset="img/page/rooms/room-1.webp" type="image/webp"><img src="img/page/rooms/room-1.jpg" alt="room"></picture>
+                        </a>
+                        <div class="room-cart__info-line room-info-line">
+                           <div class="room-info-line__class">ЛЮКС</div>
+                           <div class="room-info-line__square">S-40 кв.м.</div>
+                           <div class="room-info-line__capacity">
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.08348 9.33334C4.08348 5.78952 6.95626 2.91667 10.5001 2.91667C14.0438 2.91667 16.9166 5.78952 16.9166 9.33334C16.9166 11.5377 15.805 13.4825 14.1118 14.6377C18.0371 16.0757 20.8645 19.7901 20.9952 24.1823C21.0096 24.6653 20.6297 25.0686 20.1466 25.083C19.6636 25.0973 19.2604 24.7174 19.246 24.2344C19.1058 19.525 15.2436 15.75 10.4999 15.75C5.7563 15.75 1.89405 19.525 1.75389 24.2344C1.73952 24.7174 1.33628 25.0973 0.853249 25.083C0.370214 25.0686 -0.00970894 24.6653 0.00466737 24.1823C0.13539 19.7901 2.9629 16.0756 6.88822 14.6377C5.19503 13.4825 4.08348 11.5377 4.08348 9.33334ZM10.5001 4.66667C7.92279 4.66667 5.83348 6.756 5.83348 9.33334C5.83348 11.9107 7.92279 14 10.5001 14C13.0773 14 15.1666 11.9107 15.1666 9.33334C15.1666 6.756 13.0773 4.66667 10.5001 4.66667Z" fill="#4567AA"/>
+                                 <path d="M20.1717 9.33334C19.9994 9.33334 19.8305 9.3456 19.6657 9.36917C19.1873 9.4376 18.744 9.10526 18.6756 8.62688C18.6072 8.1485 18.9395 7.70522 19.4179 7.6368C19.6645 7.60153 19.9163 7.58334 20.1717 7.58334C23.0905 7.58334 25.4566 9.94953 25.4566 12.8683C25.4566 14.5901 24.6331 16.1185 23.3609 17.0828C26.0809 18.3021 27.9766 21.0329 27.9766 24.2083C27.9766 24.6916 27.5849 25.0833 27.1016 25.0833C26.6184 25.0833 26.2266 24.6916 26.2266 24.2083C26.2266 21.4715 24.4102 19.1566 21.9151 18.4079L21.2916 18.2208V16.2655L21.7703 16.0223C22.9212 15.4375 23.7066 14.2439 23.7066 12.8683C23.7066 10.916 22.124 9.33334 20.1717 9.33334Z" fill="#4567AA"/>
+                              </svg>
+                              <span>4</span>
+                           </div>
+                           <div class="room-info-line__view">Море</div>
+                        </div>
+                        <div class="room-cart__nav">
+                           <a class="room-cart__button button" href="#!"><span>забронировать</span></a>
+                           <a class="room-cart__button button button--white" href="apartment.html"><span>подробнее</span></a>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+               <div class="swiper-slide">
+                  <article class="rooms__cart room-cart">
+                     <div class="room-cart__body">
+                        <a href="apartment.html" class="room-cart__img">
+                           <picture><source srcset="img/page/rooms/room-2.webp" type="image/webp"><img src="img/page/rooms/room-2.jpg" alt="room"></picture>
+                        </a>
+                        <div class="room-cart__info-line room-info-line">
+                           <div class="room-info-line__class">стандарт</div>
+                           <div class="room-info-line__square">S-18 кв.м.</div>
+                           <div class="room-info-line__capacity">
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.08348 9.33334C4.08348 5.78952 6.95626 2.91667 10.5001 2.91667C14.0438 2.91667 16.9166 5.78952 16.9166 9.33334C16.9166 11.5377 15.805 13.4825 14.1118 14.6377C18.0371 16.0757 20.8645 19.7901 20.9952 24.1823C21.0096 24.6653 20.6297 25.0686 20.1466 25.083C19.6636 25.0973 19.2604 24.7174 19.246 24.2344C19.1058 19.525 15.2436 15.75 10.4999 15.75C5.7563 15.75 1.89405 19.525 1.75389 24.2344C1.73952 24.7174 1.33628 25.0973 0.853249 25.083C0.370214 25.0686 -0.00970894 24.6653 0.00466737 24.1823C0.13539 19.7901 2.9629 16.0756 6.88822 14.6377C5.19503 13.4825 4.08348 11.5377 4.08348 9.33334ZM10.5001 4.66667C7.92279 4.66667 5.83348 6.756 5.83348 9.33334C5.83348 11.9107 7.92279 14 10.5001 14C13.0773 14 15.1666 11.9107 15.1666 9.33334C15.1666 6.756 13.0773 4.66667 10.5001 4.66667Z" fill="#4567AA"/>
+                                 <path d="M20.1717 9.33334C19.9994 9.33334 19.8305 9.3456 19.6657 9.36917C19.1873 9.4376 18.744 9.10526 18.6756 8.62688C18.6072 8.1485 18.9395 7.70522 19.4179 7.6368C19.6645 7.60153 19.9163 7.58334 20.1717 7.58334C23.0905 7.58334 25.4566 9.94953 25.4566 12.8683C25.4566 14.5901 24.6331 16.1185 23.3609 17.0828C26.0809 18.3021 27.9766 21.0329 27.9766 24.2083C27.9766 24.6916 27.5849 25.0833 27.1016 25.0833C26.6184 25.0833 26.2266 24.6916 26.2266 24.2083C26.2266 21.4715 24.4102 19.1566 21.9151 18.4079L21.2916 18.2208V16.2655L21.7703 16.0223C22.9212 15.4375 23.7066 14.2439 23.7066 12.8683C23.7066 10.916 22.124 9.33334 20.1717 9.33334Z" fill="#4567AA"/>
+                              </svg>
+                              <span>2</span>
+                           </div>
+                           <div class="room-info-line__view">Терасса</div>
+                        </div>
+                        <div class="room-cart__nav">
+                           <a class="room-cart__button button" href="#!"><span>забронировать</span></a>
+                           <a class="room-cart__button button button--white" href="apartment.html"><span>подробнее</span></a>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+               <div class="swiper-slide">
+                  <article class="rooms__cart room-cart">
+                     <div class="room-cart__body">
+                        <a href="apartment.html" class="room-cart__img">
+                           <picture><source srcset="img/page/rooms/room-3.webp" type="image/webp"><img src="img/page/rooms/room-3.jpg" alt="room"></picture>
+                        </a>
+                        <div class="room-cart__info-line room-info-line">
+                           <div class="room-info-line__class">Делюкс</div>
+                           <div class="room-info-line__square">S-36 кв.м.</div>
+                           <div class="room-info-line__capacity">
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.08348 9.33334C4.08348 5.78952 6.95626 2.91667 10.5001 2.91667C14.0438 2.91667 16.9166 5.78952 16.9166 9.33334C16.9166 11.5377 15.805 13.4825 14.1118 14.6377C18.0371 16.0757 20.8645 19.7901 20.9952 24.1823C21.0096 24.6653 20.6297 25.0686 20.1466 25.083C19.6636 25.0973 19.2604 24.7174 19.246 24.2344C19.1058 19.525 15.2436 15.75 10.4999 15.75C5.7563 15.75 1.89405 19.525 1.75389 24.2344C1.73952 24.7174 1.33628 25.0973 0.853249 25.083C0.370214 25.0686 -0.00970894 24.6653 0.00466737 24.1823C0.13539 19.7901 2.9629 16.0756 6.88822 14.6377C5.19503 13.4825 4.08348 11.5377 4.08348 9.33334ZM10.5001 4.66667C7.92279 4.66667 5.83348 6.756 5.83348 9.33334C5.83348 11.9107 7.92279 14 10.5001 14C13.0773 14 15.1666 11.9107 15.1666 9.33334C15.1666 6.756 13.0773 4.66667 10.5001 4.66667Z" fill="#4567AA"/>
+                                 <path d="M20.1717 9.33334C19.9994 9.33334 19.8305 9.3456 19.6657 9.36917C19.1873 9.4376 18.744 9.10526 18.6756 8.62688C18.6072 8.1485 18.9395 7.70522 19.4179 7.6368C19.6645 7.60153 19.9163 7.58334 20.1717 7.58334C23.0905 7.58334 25.4566 9.94953 25.4566 12.8683C25.4566 14.5901 24.6331 16.1185 23.3609 17.0828C26.0809 18.3021 27.9766 21.0329 27.9766 24.2083C27.9766 24.6916 27.5849 25.0833 27.1016 25.0833C26.6184 25.0833 26.2266 24.6916 26.2266 24.2083C26.2266 21.4715 24.4102 19.1566 21.9151 18.4079L21.2916 18.2208V16.2655L21.7703 16.0223C22.9212 15.4375 23.7066 14.2439 23.7066 12.8683C23.7066 10.916 22.124 9.33334 20.1717 9.33334Z" fill="#4567AA"/>
+                              </svg>
+                              <span>4</span>
+                           </div>
+                           <div class="room-info-line__view">Горы</div>
+                        </div>
+                        <div class="room-cart__nav">
+                           <a class="room-cart__button button" href="#!"><span>забронировать</span></a>
+                           <a class="room-cart__button button button--white" href="apartment.html"><span>подробнее</span></a>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+            </div>
+            <div class="slider-rooms__arrow slider-arrow slider-arrow--prev">
+               <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+               </svg>
+            </div>
+            <div class="slider-rooms__arrow slider-arrow slider-arrow--next">
+               <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+               </svg>
+            </div>
+         </div>
+      </section>
+      <section class="page__we-have we-have">
+         <div class="container">
+            <div class="we-have__body">
+               <h2 class="we-have__title section-title">вам понравиться у нас</h2>
+               <div class="we-have__tabs tabs">
+                  <div class="we-have__content">
+                     <ul class="we-have__list">
+                        <li class="we-have__item active" data-smpb="we-have-1">
+                           <span>01</span>
+                           <span>паста бар</span>
+                           <a href="#!" class="we-have__show-more">
+                              <span>подробнее</span>
+                              <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="we-have__item" data-smpb="we-have-2">
+                           <span>02</span>
+                           <span>арома-сад</span>
+                           <a href="#!" class="we-have__show-more">
+                              <span>подробнее</span>
+                              <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="we-have__item" data-smpb="we-have-3">
+                           <span>03</span>
+                           <span>пляж</span>
+                           <a href="#!" class="we-have__show-more">
+                              <span>подробнее</span>
+                              <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="we-have__item" data-smpb="we-have-4">
+                           <span>04</span>
+                           <span>территория отеля</span>
+                           <a href="#!" class="we-have__show-more">
+                              <span>подробнее</span>
+                              <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="we-have__slider we-have-slider active" data-smpc="we-have-1">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-1-1.webp" type="image/webp"><img src="img/page/we-have/slide-1-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-1-1.webp" type="image/webp"><img src="img/page/we-have/slide-1-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-1-1.webp" type="image/webp"><img src="img/page/we-have/slide-1-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="we-have-slider__navigation">
+                        <div class="we-have-slider__arrow slider-arrow--white slider-arrow slider-arrow--prev">
+                           <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </div>
+                        <div class="we-have-slider__pagination ">
+                           <div class="slider-pagination">
+                              
+                           </div>
+                        </div>
+                        <div class="we-have-slider__arrow slider-arrow--white slider-arrow slider-arrow--next">
+                           <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="we-have__slider we-have-slider" data-smpc="we-have-2">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-2-1.webp" type="image/webp"><img src="img/page/we-have/slide-2-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-2-1.webp" type="image/webp"><img src="img/page/we-have/slide-2-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="we-have-slider__navigation">
+                        <div class="we-have-slider__arrow slider-arrow--white slider-arrow slider-arrow--prev">
+                           <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </div>
+                        <div class="we-have-slider__pagination">
+                           <div class="slider-pagination"></div>
+                        </div>
+                        <div class="we-have-slider__arrow slider-arrow--white slider-arrow slider-arrow--next">
+                           <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="we-have__slider we-have-slider" data-smpc="we-have-3">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-3-1.webp" type="image/webp"><img src="img/page/we-have/slide-3-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-3-1.webp" type="image/webp"><img src="img/page/we-have/slide-3-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="we-have-slider__navigation">
+                        <div class="we-have-slider__arrow slider-arrow--white slider-arrow slider-arrow--prev">
+                           <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </div>
+                        <div class="we-have-slider__pagination">
+                           <div class="slider-pagination"></div>
+                        </div>
+                        <div class="we-have-slider__arrow slider-arrow--white slider-arrow slider-arrow--next">
+                           <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="we-have__slider we-have-slider" data-smpc="we-have-4">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-4-1.webp" type="image/webp"><img src="img/page/we-have/slide-4-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-4-1.webp" type="image/webp"><img src="img/page/we-have/slide-4-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-4-1.webp" type="image/webp"><img src="img/page/we-have/slide-4-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="#!" class="we-have__slide">
+                              <picture><source srcset="img/page/we-have/slide-4-1.webp" type="image/webp"><img src="img/page/we-have/slide-4-1.jpg" alt="slide"></picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="we-have-slider__navigation">
+                        <div class="we-have-slider__arrow slider-arrow--white slider-arrow slider-arrow--prev">
+                           <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </div>
+                        <div class="we-have-slider__pagination">
+                           <div class="slider-pagination"></div>
+                        </div>
+                        <div class="we-have-slider__arrow slider-arrow--white slider-arrow slider-arrow--next">
+                           <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="page__recreation recreation">
+         <div class="container">
+            <div class="recreation__body">
+               <h2 class="recreation__title section-title">Активный отдых в отеле санатории</h2>
+               <div class="recreation__content tabs">
+                  <div class="recreation__buttons">
+                     <button class="recreation__button button button--white active" data-smpb="recreation-1"><span>морские прогулки</span></button>
+                     <button class="recreation__button button button--white" data-smpb="recreation-2"><span>рыбалка</span></button>
+                     <button class="recreation__button button button--white" data-smpb="recreation-3"><span>экстрим</span></button>
+                  </div>
+                  <div class="recreation__services active" data-smpc="recreation-1">
+                      <div class="recreation__row">
+                         <article class="recreation__item service service--big brad-right">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/item1-1.webp" type="image/webp"><img src="img/page/services/item1-1.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Виндсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                         <article class="recreation__item service service--small brad-left">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/item1-2.webp" type="image/webp"><img src="img/page/services/item1-2.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Кайтсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                      </div>
+                      <div class="recreation__row">
+                         <article class="recreation__item service service--small">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/item1-3.webp" type="image/webp"><img src="img/page/services/item1-3.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Кайтсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                         <article class="recreation__item service service--big">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/item1-4.webp" type="image/webp"><img src="img/page/services/item1-4.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Виндсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                      </div>
+                  </div>
+                  <div class="recreation__services" data-smpc="recreation-2">
+                      <div class="recreation__row">
+                         <article class="recreation__item service service--big">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/item2-1.webp" type="image/webp"><img src="img/page/services/item2-1.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Виндсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                         <article class="recreation__item service service--small">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/item2-2.webp" type="image/webp"><img src="img/page/services/item2-2.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Кайтсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                      </div>
+                      <div class="recreation__row">
+                         <article class="recreation__item service service--small">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/item2-3.webp" type="image/webp"><img src="img/page/services/item2-3.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Кайтсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                         <article class="recreation__item service service--big">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/item2-4.webp" type="image/webp"><img src="img/page/services/item2-4.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Виндсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                      </div>
+                  </div>
+                  <div class="recreation__services" data-smpc="recreation-3">
+                      <div class="recreation__row">
+                         <article class="recreation__item service service--big">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/test.webp" type="image/webp"><img src="img/page/services/test.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Виндсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                         <article class="recreation__item service service--small">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/test.webp" type="image/webp"><img src="img/page/services/test.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Кайтсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                      </div>
+                      <div class="recreation__row">
+                         <article class="recreation__item service service--small">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/test.webp" type="image/webp"><img src="img/page/services/test.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Кайтсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                         <article class="recreation__item service service--big">
+                           <a href="service.html" class="service__img">
+                              <picture><source srcset="img/page/services/test.webp" type="image/webp"><img src="img/page/services/test.jpg" alt="Картинка"></picture>
+                           </a>
+                           <div class="service__label">
+                              <h3 class="service__title">Виндсерфинг</h3>
+                              <a href="service.html" class="service__arrow link-arrow">
+                                 <svg class="arrow arrow--color-white" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                                 </svg>
+                              </a>
+                           </div>
+                         </article>
+                      </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="page__offers offers" id="offers">
+         <div class="container">
+            <div class="offers__body">
+               <div class="offers__header">
+                  <div class="offers__decor title-decor title-decor__decor--left">
+                     <svg width="142" height="211" viewBox="0 0 142 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="133" cy="9.00024" r="9" transform="rotate(-180 133 9.00024)" fill="#4666A9"/>
+                        <circle cx="133" cy="45.0002" r="9" transform="rotate(-180 133 45.0002)" fill="#4666A9"/>
+                        <circle cx="133" cy="81.0002" r="9" transform="rotate(-180 133 81.0002)" fill="#4666A9"/>
+                        <circle opacity="0.5" cx="94" cy="101" r="9" transform="rotate(-180 94 101)" fill="#4666A9"/>
+                        <circle opacity="0.5" cx="94" cy="136" r="9" transform="rotate(-180 94 136)" fill="#4666A9"/>
+                        <circle cx="94" cy="202" r="9" transform="rotate(-180 94 202)" fill="#4666A9"/>
+                        <circle opacity="0.5" cx="94" cy="169" r="9" transform="rotate(-180 94 169)" fill="#4666A9"/>
+                        <circle r="12" transform="matrix(-1 0 0 1 94 58.0002)" fill="#4666A9"/>
+                        <circle opacity="0.5" r="12" transform="matrix(-1 0 0 1 55 97.0002)" fill="#4666A9"/>
+                        <circle opacity="0.5" r="12" transform="matrix(-1 0 0 1 55 136)" fill="#4666A9"/>
+                        <circle cx="10" cy="136" r="10" fill="#4666A9"/>
+                     </svg>
+                  </div>
+                  <h2 class="offers__title section-title">наши спецпредложения</h2>
+                  <div class="offers__decor title-decor title-decor__decor--right">
+                     <svg width="140" height="147" viewBox="0 0 140 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.5" r="9" transform="matrix(1 0 0 -1 9 9.00024)" fill="#4666A9"/>
+                        <circle r="9" transform="matrix(1 0 0 -1 9 45.0002)" fill="#4666A9"/>
+                        <circle r="9" transform="matrix(1 0 0 -1 48 61.5002)" fill="#4666A9"/>
+                        <circle r="9" transform="matrix(1 0 0 -1 48 100)" fill="#4666A9"/>
+                        <circle opacity="0.5" cx="87" cy="61.5002" r="12" fill="#4666A9"/>
+                        <circle opacity="0.5" cx="87" cy="100" r="12" fill="#4666A9"/>
+                        <circle opacity="0.5" r="9" transform="matrix(1 0 0 -1 48 138)" fill="#4666A9"/>
+                        <circle opacity="0.5" cx="130" cy="100" r="10" fill="#4666A9"/>
+                     </svg>
+                  </div>
+               </div>
+               <div class="offers__content">
+                  <div class="offers__item offer-cart">
+                     <a href="special-offer.html" class="offer-cart__img">
+                        <picture><source srcset="img/page/offers/offer-1.webp" type="image/webp"><img src="img/page/offers/offer-1.jpg" alt="Картинка"></picture>
+                     </a>   
+                     <div class="offer-cart__info">
+                        <div class="offer-cart__data">12/06.22</div>
+                        <div class="offer-cart__offer">скидка на проживание 10% от 5 суток</div>
+                        <div class="offer-cart__text">Аренда номера Делюкс на 4 человек с видом на море и собвенной терассой. Коктейли в подарок единоразово при размещении.</div>
+                        <a href="special-offer.html" class="offer-cart__link">
+                           <span>подробнее</span>
+                           <svg class="arrow arrow--color-1" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="offers__item offer-cart">
+                     <a href="special-offer.html" class="offer-cart__img">
+                        <picture><source srcset="img/page/offers/offer-2.webp" type="image/webp"><img src="img/page/offers/offer-2.jpg" alt="Картинка"></picture>
+                     </a>   
+                     <div class="offer-cart__info">
+                        <div class="offer-cart__data">12/06.22</div>
+                        <div class="offer-cart__offer">Комплимент молодоженам и 1-сутки в подарок</div>
+                        <div class="offer-cart__text">Аренда номера Делюкс на 4 человек с видом на море и собвенной терассой. Коктйели в подарок единоразово при размещении.</div>
+                        <a href="special-offer.html" class="offer-cart__link">
+                           <span>подробнее</span>
+                           <svg class="arrow arrow--color-1" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="offers__item offer-cart">
+                     <a href="special-offer.html" class="offer-cart__img">
+                        <picture><source srcset="img/page/offers/offer-3.webp" type="image/webp"><img src="img/page/offers/offer-3.jpg" alt="Картинка"></picture>
+                     </a>   
+                     <div class="offer-cart__info">
+                        <div class="offer-cart__data">12/06.22</div>
+                        <div class="offer-cart__offer">Фотосессия в подарок при оплате 10 суток</div>
+                        <div class="offer-cart__text">Аренда номера Делюкс на 4 человек с видом на море и собвенной терассой. Коктейли в подарок единоразово при размещении.</div>
+                        <a href="special-offer.html" class="offer-cart__link">
+                           <span>подробнее</span>
+                           <svg class="arrow arrow--color-1" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="offers__item offer-cart hidden">
+                     <a href="special-offer.html" class="offer-cart__img">
+                        <picture><source srcset="img/page/offers/offer-1.webp" type="image/webp"><img src="img/page/offers/offer-1.jpg" alt="Картинка"></picture>
+                     </a>   
+                     <div class="offer-cart__info">
+                        <div class="offer-cart__data">12/06.22</div>
+                        <div class="offer-cart__offer">скидка на проживание 10% от 5 суток</div>
+                        <div class="offer-cart__text">Аренда номера Делюкс на 4 человек с видом на море и собвенной терассой. Коктейли в подарок единоразово при размещении.</div>
+                        <a href="special-offer.html" class="offer-cart__link">
+                           <span>подробнее</span>
+                           <svg class="arrow arrow--color-1" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="offers__item offer-cart hidden">
+                     <a href="special-offer.html" class="offer-cart__img">
+                        <picture><source srcset="img/page/offers/offer-2.webp" type="image/webp"><img src="img/page/offers/offer-2.jpg" alt="Картинка"></picture>
+                     </a>   
+                     <div class="offer-cart__info">
+                        <div class="offer-cart__data">12/06.22</div>
+                        <div class="offer-cart__offer">Комплимент молодоженам и 1-сутки в подарок</div>
+                        <div class="offer-cart__text">Аренда номера Делюкс на 4 человек с видом на море и собвенной терассой. Коктйели в подарок единоразово при размещении.</div>
+                        <a href="special-offer.html" class="offer-cart__link">
+                           <span>подробнее</span>
+                           <svg class="arrow arrow--color-1" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="offers__item offer-cart hidden">
+                     <a href="special-offer.html" class="offer-cart__img">
+                        <picture><source srcset="img/page/offers/offer-3.webp" type="image/webp"><img src="img/page/offers/offer-3.jpg" alt="Картинка"></picture>
+                     </a>   
+                     <div class="offer-cart__info">
+                        <div class="offer-cart__data">12/06.22</div>
+                        <div class="offer-cart__offer">Фотосессия в подарок при оплате 10 суток</div>
+                        <div class="offer-cart__text">Аренда номера Делюкс на 4 человек с видом на море и собвенной терассой. Коктейли в подарок единоразово при размещении.</div>
+                        <a href="special-offer.html" class="offer-cart__link">
+                           <span>подробнее</span>
+                           <svg class="arrow arrow--color-1" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31.4277 6.97559C31.98 6.97559 32.4277 7.4233 32.4277 7.97559C32.4277 8.52787 31.98 8.97559 31.4277 8.97559V6.97559ZM1.02214 8.68269C0.631618 8.29217 0.631618 7.659 1.02214 7.26848L7.3861 0.904518C7.77663 0.513994 8.40979 0.513994 8.80032 0.904518C9.19084 1.29504 9.19084 1.92821 8.80032 2.31873L3.14346 7.97559L8.80032 13.6324C9.19084 14.023 9.19084 14.6561 8.80032 15.0467C8.40979 15.4372 7.77663 15.4372 7.3861 15.0467L1.02214 8.68269ZM31.4277 8.97559L1.72925 8.97559V6.97559L31.4277 6.97559V8.97559Z" fill="white"/>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <a href="#!" class="offers__show-more">Смотреть все</a>
+            </div>
+         </div>
+      </section>
+      <section class="page__video video">
+         <div class="container">
+            <div class="video__body">
+               <div class="video__header">
+                  <div class="video__decor">
+                     <svg width="73" height="41" viewBox="0 0 73 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.5" r="7.00071" transform="matrix(0.0172881 -0.999851 -0.999851 -0.0172881 7.25906 33.3607)" fill="#4666A9"/>
+                        <circle opacity="0.5" r="7.00071" transform="matrix(0.0172881 -0.999851 -0.999851 -0.0172881 65.2093 8.08096)" fill="#4666A9"/>
+                        <circle r="7.00071" transform="matrix(0.0172881 -0.999851 -0.999851 -0.0172881 36.0398 33.3607)" fill="#4666A9"/>
+                        <circle r="7.00071" transform="matrix(0.0172881 -0.999851 -0.999851 -0.0172881 65.2093 33.3607)" fill="#4666A9"/>
+                     </svg>
+                  </div>
+                  <h2 class="video__title section-title">посмотрите Обзорное видео о нашем отеле</h2>
+                  <div class="video__decor">
+                     <svg width="48" height="65" viewBox="0 0 48 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.5" r="6.69246" transform="matrix(1 0 0 -1 9.20467 7.61271)" fill="#4666A9"/>
+                        <circle opacity="0.5" r="6.69246" transform="matrix(1 0 0 -1 9.20467 58.1781)" fill="#4666A9"/>
+                        <circle opacity="0.5" cx="9.20453" cy="33.6391" r="8.92328" fill="#4666A9"/>
+                        <circle r="7.43607" transform="matrix(-1 0 0 1 39.9233 33.6392)" fill="#4567AA"/>
+                     </svg>
+                  </div>
+               </div>
+               <div class="video__content" data-video="https://www.youtube.com/embed/PaQuuB88SVY">
+                  <div class="video__prewiev">
+                     <picture><source srcset="img/page/video/video-prew.webp" type="image/webp"><img src="img/page/video/video-prew.jpg" alt="picture"></picture>
+                  </div>
+                  <button class="video__play">
+                     <svg width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="56" cy="55.9014" r="55.5" fill="white"/>
+                        <path d="M74.5 55.9014L46.75 71.9228V39.8799L74.5 55.9014Z" fill="#FF8139"/>
+                        <circle cx="55.5" cy="56.4014" r="39" stroke="#4567AA" stroke-width="2"/>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+   <div class="container">
+      <div class="footer__body">
+         <div class="footer__content">
+            <div class="footer__column">
+               <a href="#!" class="footer__logo main-logo">
+                  <img src="img/Logo.svg" alt="logo">
+               </a>
+               <div class="footer__contacts contacts">
+                  <a href="tel:89120388044" class="contacts__phone">
+                     <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.4434 12.4862V14.7362C16.4443 14.9451 16.4015 15.1518 16.3178 15.3432C16.2341 15.5346 16.1114 15.7064 15.9575 15.8476C15.8036 15.9888 15.6219 16.0963 15.424 16.1632C15.2261 16.2302 15.0165 16.255 14.8084 16.2362C12.5006 15.9854 10.2837 15.1968 8.33593 13.9337C6.5238 12.7822 4.98743 11.2458 3.83593 9.43372C2.56841 7.47712 1.77961 5.24946 1.53343 2.93122C1.51469 2.72382 1.53934 2.51479 1.60581 2.31743C1.67228 2.12008 1.77911 1.93873 1.91951 1.78493C2.0599 1.63113 2.23078 1.50825 2.42127 1.42411C2.61176 1.33997 2.81769 1.29641 3.02593 1.29622H5.27593C5.63991 1.29263 5.99278 1.42152 6.26875 1.65886C6.54473 1.89621 6.72499 2.2258 6.77593 2.58622C6.8709 3.30627 7.04702 4.01326 7.30093 4.69372C7.40184 4.96216 7.42368 5.2539 7.36386 5.53438C7.30404 5.81485 7.16508 6.0723 6.96343 6.27622L6.01093 7.22872C7.0786 9.10637 8.63327 10.661 10.5109 11.7287L11.4634 10.7762C11.6673 10.5746 11.9248 10.4356 12.2053 10.3758C12.4857 10.316 12.7775 10.3378 13.0459 10.4387C13.7264 10.6926 14.4334 10.8687 15.1534 10.9637C15.5178 11.0151 15.8505 11.1986 16.0883 11.4793C16.3262 11.7601 16.4526 12.1184 16.4434 12.4862Z" stroke="#4567AA" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                     </svg>
+                     <span>8(912) 038-80-44</span>
+                  </a>
+                  <span class="contacts__adress">
+                     298690, Россия, Крым, г. Ялта, пгт Форос, Форосский спуск, 1
+                  </span>
+                  <div class="footer__open">
+                     <div class="footer__burger menu-burger"></div>
+                     <span>открыть меню</span>
+                  </div>
+               </div>
+            </div>
+            <nav class="footer__nav">
+               <ul class="footer__list">
+                  <li class="footer__link"><a href="rooms.html">Номера и цены</a></li>
+                  <li class="footer__link"><a href="404.html">Об отеле</a></li>
+                  <li class="footer__link"><a href="404.html">Услуги</a></li>
+                  <li class="footer__link"><a href="404.html">Условия проживания(404)</a></li>
+                  <li class="footer__link"><a href="news.html">Новости</a></li>
+                  <li class="footer__link"><a href="contact.html">Контакты</a></li>
+                  <li class="footer__link"><a href="page-gallery.html">Фото отеля</a></li>
+                  <li class="footer__link"><a href="route.html">Как добраться</a></li>
+                  <li class="footer__link"><a href="comments.html">Отзывы гостей</a></li>
+                  <li class="footer__link"><a href="404.html">Достопримечательности</a></li>
+                  <li class="footer__link"><a href="404.html">паста-бар</a></li>
+                  <li class="footer__link"><a href="active-leisure.html">Активный отдых</a></li>
+                  <li class="footer__link"><a href="404.html">эКСТРИМ</a></li>
+                  <li class="footer__link"><a href="404.html">МОРСКИЕ ПРОГУЛКИ</a></li>
+                  <li class="footer__link"><a href="404.html">рЫБАЛКА</a></li>
+                  <li class="footer__link"><a class="nav-link" href="index.html#offers">Спецпредложения</a></li>
+               </ul>
+            </nav>
+            <div class="footer__footer">
+               <span>© 2022 Cанторини. Все права защищены.</span>
+               <div class="footer__social social">
+                  <a href="#!" class="social__vk">
+                     <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.624023 21.6166C0.624023 11.4342 0.624023 6.3431 3.85756 3.17985C7.09111 0.0166016 12.2954 0.0166016 22.704 0.0166016H24.544C34.9527 0.0166016 40.1569 0.0166016 43.3905 3.17985C46.624 6.3431 46.624 11.4342 46.624 21.6166V23.4166C46.624 33.599 46.624 38.6901 43.3905 41.8534C40.1569 45.0166 34.9527 45.0166 24.544 45.0166H22.704C12.2954 45.0166 7.09111 45.0166 3.85756 41.8534C0.624023 38.6901 0.624023 33.599 0.624023 23.4166V21.6166Z" fill="#4567AA"/>
+                        <path d="M25.0212 32.4166C14.3341 32.4166 8.23837 25.322 7.98438 13.5166H13.3377C13.5136 22.1815 17.4601 25.8517 20.5862 26.6085V13.5166H25.6271V20.9896C28.7141 20.668 31.957 17.2625 33.0511 13.5166H38.0919C37.2518 18.1328 33.735 21.5382 31.2341 22.9382C33.735 24.0734 37.7404 27.0436 39.2644 32.4166H33.7154C32.5236 28.822 29.5542 26.0409 25.6271 25.6625V32.4166H25.0212Z" fill="white"/>
+                        <defs>
+                        <clipPath>
+                        <rect width="46" height="45" fill="white" transform="translate(0.624023 0.0166016)"/>
+                        </clipPath>
+                        </defs>
+                     </svg>
+                  </a>
+                  <a href="#!" class="social__youtube">
+                     <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M44.6746 12.4939C44.4186 11.5697 43.9171 10.7271 43.2205 10.0503C42.5239 9.37357 41.6565 8.88644 40.7052 8.63768C37.2018 7.71655 23.124 7.71655 23.124 7.71655C23.124 7.71655 9.04621 7.71655 5.54283 8.63768C4.59151 8.88644 3.72414 9.37357 3.02752 10.0503C2.33089 10.7271 1.82946 11.5697 1.5734 12.4939C0.919236 15.9649 0.601791 19.4879 0.625233 23.0166C0.601791 26.5452 0.919236 30.0682 1.5734 33.5392C1.82946 34.4634 2.33089 35.306 3.02752 35.9828C3.72414 36.6595 4.59151 37.1467 5.54283 37.3954C9.04621 38.3165 23.124 38.3165 23.124 38.3165C23.124 38.3165 37.2018 38.3165 40.7052 37.3954C41.6565 37.1467 42.5239 36.6595 43.2205 35.9828C43.9171 35.306 44.4186 34.4634 44.6746 33.5392C45.3288 30.0682 45.6463 26.5452 45.6228 23.0166C45.6463 19.4879 45.3288 15.9649 44.6746 12.4939ZM18.6243 29.5737V16.4594L30.3076 23.0166L18.6243 29.5737Z" fill="#4567AA"/>
+                        <path d="M18.624 29.5767V16.4564L30.324 23.0166L18.624 29.5767Z" fill="white"/>
+                        <defs>
+                        <clipPath>
+                        <rect width="45" height="45" fill="white" transform="translate(0.624023 0.516602)"/>
+                        </clipPath>
+                        </defs>
+                     </svg>
+                  </a>
+                  <a href="#!" class="social__zen">
+                     <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.624023 22.5166C0.624023 10.0902 10.6976 0.0166016 23.124 0.0166016C35.5504 0.0166016 45.624 10.0902 45.624 22.5166C45.624 34.943 35.5504 45.0166 23.124 45.0166C10.6976 45.0166 0.624023 34.943 0.624023 22.5166Z" fill="#4567AA"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6687 0.0166016C22.5624 9.27326 21.9571 14.4537 18.5091 17.9017C15.0611 21.3497 9.88068 21.955 0.624023 22.0613V23.4046C9.88068 23.5109 15.0611 24.1162 18.5091 27.5642C21.903 30.958 22.5427 36.0305 22.6633 45.0166H24.0174C24.138 36.0305 24.7777 30.958 28.1716 27.5642C31.5655 24.1703 36.6379 23.5305 45.624 23.41V22.0558C36.6379 21.9353 31.5655 21.2956 28.1716 17.9017C24.7236 14.4537 24.1183 9.27326 24.0121 0.0166016H22.6687Z" fill="white"/>
+                        <defs>
+                        <clipPath>
+                        <rect width="45" height="45" fill="white" transform="translate(0.624023 0.0166016)"/>
+                        </clipPath>
+                        </defs>
+                     </svg>
+                  </a>
+               </div>
+               <span>Политика конфиденциальности</span>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+   
+   <script src="js/index.min.js?_v=20220907225359"></script>
+</body>
+</html>
